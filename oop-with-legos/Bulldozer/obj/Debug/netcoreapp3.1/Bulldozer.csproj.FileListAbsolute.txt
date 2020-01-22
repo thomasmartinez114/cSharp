@@ -1,0 +1,11 @@
+C:\Users\batman\Projects\cSharp\oop-with-legos\Bulldozer\bin\Debug\netcoreapp3.1\Bulldozer.exe
+C:\Users\batman\Projects\cSharp\oop-with-legos\Bulldozer\bin\Debug\netcoreapp3.1\Bulldozer.deps.json
+C:\Users\batman\Projects\cSharp\oop-with-legos\Bulldozer\bin\Debug\netcoreapp3.1\Bulldozer.runtimeconfig.json
+C:\Users\batman\Projects\cSharp\oop-with-legos\Bulldozer\bin\Debug\netcoreapp3.1\Bulldozer.runtimeconfig.dev.json
+C:\Users\batman\Projects\cSharp\oop-with-legos\Bulldozer\bin\Debug\netcoreapp3.1\Bulldozer.dll
+C:\Users\batman\Projects\cSharp\oop-with-legos\Bulldozer\bin\Debug\netcoreapp3.1\Bulldozer.pdb
+C:\Users\batman\Projects\cSharp\oop-with-legos\Bulldozer\obj\Debug\netcoreapp3.1\Bulldozer.csprojAssemblyReference.cache
+C:\Users\batman\Projects\cSharp\oop-with-legos\Bulldozer\obj\Debug\netcoreapp3.1\Bulldozer.AssemblyInfoInputs.cache
+C:\Users\batman\Projects\cSharp\oop-with-legos\Bulldozer\obj\Debug\netcoreapp3.1\Bulldozer.AssemblyInfo.cs
+C:\Users\batman\Projects\cSharp\oop-with-legos\Bulldozer\obj\Debug\netcoreapp3.1\Bulldozer.dll
+C:\Users\batman\Projects\cSharp\oop-with-legos\Bulldozer\obj\Debug\netcoreapp3.1\Bulldozer.pdb
