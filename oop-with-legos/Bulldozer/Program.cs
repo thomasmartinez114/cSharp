@@ -6,61 +6,26 @@ namespace Bulldozer
     {
         static void Main(string[] args)
         {
-            var man = new Man();
-            var kart = new Kart();
-            var alien = new Alien();
+            var worker = new FactoryWorker();
+            worker.Count(4);
+            worker.Count(5);
         }
     }
 
-    public class GeneralObject
+    public class FactoryWorker
     {
-        public GeneralObject()
+        public FactoryWorker()
         {
 
         }
-        public bool moves { get; set; }
-        public string color { get; set; }
-    }
-
-    public class Human : GeneralObject
-    {
-        public Human()
+        public void Count(int number)
         {
+            if (Total == null)
+                Total = 0;
 
+            Total = Total + number;
+            Console.WriteLine(Total.ToString());
         }
-
-        public string name { get; set; }
+        public int Total { get; set; }
     }
-
-    public class Man : Human
-    {
-        // Constructor
-        public Man()
-        {
-
-        }
-
-    }
-
-    public class Woman : Human
-                public Woman()
-    {
-
-    }
-
-}
-
-public class Kart : GeneralObject
-{
-    public Kart()
-    {
-        public string manufacturer { get; set; }
-}
-}
-public class Alien : GeneralObject
-{
-    public Alien()
-    {
-    public string planet { get; set; }
-}
 }
