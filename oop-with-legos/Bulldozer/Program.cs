@@ -2,7 +2,7 @@
 
 namespace Bulldozer
 {
-    class Program
+    class MainClass
     {
         static void Main(string[] args)
         {
@@ -22,7 +22,17 @@ namespace Bulldozer
         public string color { get; set; }
     }
 
-    public class Man : GeneralObject
+    public class Human : GeneralObject
+    {
+        public Human()
+        {
+
+        }
+
+        public string name { get; set; }
+    }
+
+    public class Man : Human
     {
         // Constructor
         public Man()
@@ -30,16 +40,22 @@ namespace Bulldozer
 
         }
 
-
-        public string name { get; set; }
     }
 
-    public class Kart : GeneralObject
+    public class Woman : Human
+                public Woman()
     {
-        public Kart()
-        {
-        public string manufacturer { get; set; }
+
     }
+
+}
+
+public class Kart : GeneralObject
+{
+    public Kart()
+    {
+        public string manufacturer { get; set; }
+}
 }
 public class Alien : GeneralObject
 {
