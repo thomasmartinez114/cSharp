@@ -12,7 +12,17 @@ namespace Bulldozer
         }
     }
 
-    public class Man
+    public class GeneralObject
+    {
+        public GeneralObject()
+        {
+
+        }
+        public bool moves { get; set; }
+        public string color { get; set; }
+    }
+
+    public class Man : GeneralObject
     {
         // Constructor
         public Man()
@@ -20,27 +30,21 @@ namespace Bulldozer
 
         }
 
-        public bool moves { get; set; }
+
         public string name { get; set; }
-        public string color { get; set; }
     }
 
-    public class Kart
+    public class Kart : GeneralObject
     {
         public Kart()
         {
-        public bool moves { get; set; }
         public string manufacturer { get; set; }
-        public string color { get; set; }
     }
 }
-public class Alien
+public class Alien : GeneralObject
 {
     public Alien()
     {
-        public bool moves { get; set; }
     public string planet { get; set; }
-    public string color { get; set; }
 }
-    }
 }
