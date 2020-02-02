@@ -2,9 +2,9 @@
 
 **Homework Assignment**
 
-- [ ] Make a Car class with properties: color and manufacturer
+- [x] Make a Car class with properties: color and manufacturer
 
-- [ ] Make car1 object (instantiate with color Red and manufacturer Toyota)
+- [x] Make car1 object (instantiate with color Red and manufacturer Toyota)
 
 - [ ] Make new SaloonCar class that inherits from Car class
 
