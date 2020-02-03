@@ -6,9 +6,9 @@
 
 - [x] Make car1 object (instantiate with color Red and manufacturer Toyota)
 
-- [ ] Make new SaloonCar class that inherits from Car class
+- [x] Make new SaloonCar class that inherits from Car class
 
-  - [ ] Add new property called: numberOfSeats
+  - [x] Add new property called: numberOfSeats
 
 - [ ] Write 3 constructors to do the following:
 

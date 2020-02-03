@@ -23,4 +23,14 @@ namespace Car
         public string color { set; get; }
         public string manufacturer { set; get; }
     }
+
+    public class SaloonCar : CarInfo
+    {
+        public SaloonCar()
+        {
+
+        }
+
+        public string numberOfSeats { get; set; }
+    }
 }
